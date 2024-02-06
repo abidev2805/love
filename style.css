@@ -12,7 +12,7 @@ body{
 }
 
 #headbar{
-    font-family: 'Homemade Apple', cursive;
+    /* font-family: 'Homemade Apple', cursive; */
     background-color: #cc3355;
     font-size: 40px;
     text-align: center;
@@ -37,6 +37,7 @@ body{
     font-family: 'Bilbo', cursive;
     font-size: 40px;
     box-shadow: 0 5px 10px;
+    background-size: cover;
 }
 
 .text{
@@ -49,25 +50,29 @@ body{
 }
 
 #box1{
-    background-image: url("assests/IMG-20240131-WA0016.jpg");
+    background-image: url("assests/1.jpg");
 }
 
 #box2{
-    background-image: url("assests/IMG_20240104_193635_182 (1).jpg");
+    background-image: url("assests/2.jpg");
 }
 
 #box3{
-    background-image: url("assests/IMG-20240131-WA0021.jpg");
+    background-image: url("assests/3.jpg");
 }
 
-/* #box4{
-    background-image: url("assests/IMG_20220303_211119_854.jpg");
+#box4{
+    background-image: url("assests/4.jpg");
 }
 
 #box5{
-    background-image: url("assests/IMG_20220612_110741_023.jpg");
+    background-image: url("assests/5.jpg");
 }
 
 #box6{
-    background-image: url("assests/IMG_20220612_110742_647.jpg");
-} */
+    background-image: url("assests/6.jpg");
+}
+
+#box7{
+    background-image: url("assests/7.jpg");
+}

@@ -2,12 +2,13 @@ let box = document.querySelectorAll(".box")
 let text = document.querySelectorAll(".text")
 
 const arr = [
-    `url("assests/IMG-20240131-WA0016.jpg")`,
-    `url("assests/IMG_20240104_193635_182 (1).jpg")`,
-    `url("assests/IMG-20240131-WA0021.jpg")`,
-    `url("")`,
-    `url("")`,
-    `url("")`
+    `url("assests/1.jpg")`,
+    `url("assests/2.jpg")`,
+    `url("assests/3.jpg")`,
+    `url("assests/4.jpg")`,
+    `url("assests/5.jpg")`,
+    `url("assests/6.jpg")`,
+    `url("assests/7.jpg")`
 ]
 
 let state = {
