@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #ccccdd;
+}
+
+body{
+    background-color: #6699aa;
+}
+
+#headbar{
+    font-family: 'Homemade Apple', cursive;
+    background-color: #cc3355;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0px 1px 10px #000000;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: #dd6688;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Bilbo', cursive;
+    font-size: 40px;
+    box-shadow: 0 5px 10px;
+}
+
+.text{
+    height: 500px;
+    display: none;
+}
+
+.image{
+    background-size: cover;
+}
+
+#box1{
+    background-image: url("assests/IMG-20240131-WA0016.jpg");
+}
+
+#box2{
+    background-image: url("assests/IMG_20240104_193635_182 (1).jpg");
+}
+
+#box3{
+    background-image: url("assests/IMG-20240131-WA0021.jpg");
+}
+
+/* #box4{
+    background-image: url("assests/IMG_20220303_211119_854.jpg");
+}
+
+#box5{
+    background-image: url("assests/IMG_20220612_110741_023.jpg");
+}
+
+#box6{
+    background-image: url("assests/IMG_20220612_110742_647.jpg");
+} */
